@@ -1,5 +1,4 @@
-# Implémentation Quick and Dirty de l'algorithme K-Modes pour le Test_Aquila
-
+# Implémentation de l'algorithme de clustering Kmodes en python (quick and dirty version)
 
 
 ## Motivation
@@ -7,6 +6,11 @@ Ce repo contient une implémentation quick and dirty de l'algorithme K-modes. La
  * Objet A : (Paris,Riche,Foot)
  * Objet B : (New York,Riche,Basket)
  * dist(A,B) : 2
+
+## Instructions
+ * Cloner le repo : `git clone https://github.com/hansglick/kmodes.git`
+ * Afin de cloner l'environnement : `conda env create -f env/environment.yml`
+ * Activer l'environnement : `source activate test_aquila`
 
 
 ## La fonction principale kmodes
