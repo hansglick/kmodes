@@ -9,6 +9,10 @@ Ce repo contient une implémentation quick and dirty de l'algorithme K-modes. La
  * dist(A,B) : 2
 
 
+## La fonction principale kmodes
+La fonction prend comme argument un dataframe pandas dont les colonnes sont des dummy variables. Elle renvoie deux objets :
+ * Objet 1 : un dataframe contenant les résultats du clustering, un index et un label représentant la classe issue du clustering
+ * Objet 2 : un dataframe contenant des métriques permettant de caractériser les clusters. Ces métriques correspondent aux odds ratio cluster / global. Par exemple : si un cluster comprend 70% de _Paris_ alors que l'attribut _Paris_ n'est présent que dans 35% de la population alors l'attribut _Paris_ est représenté par la métrique 2 (70/35)
 
 ## Les arguments de la fonction principale k-modes
 * **df** : Dataframe, une ligne égale à un individu, les colonnes doivent uniquement être au format OHE
