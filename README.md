@@ -2,9 +2,9 @@
 
 
 ## Motivation
-Ce repo contient une implémentation quick and dirty de l'algorithme K-modes d'après l'article https://shapeofdata.wordpress.com/2014/03/04/k-modes/ . La fonction principale __kmodes__ est utilisée pour répondre au test technique de Aquila. La distance utilisée correspond au nombre de mismatchs entre deux objets. Ex :
- * **Objet A** : (*Paris*,Riche,*Foot*)
- * **Objet B** : (*New York*,Riche,*Basket*)
+Ce repo contient une implémentation quick and dirty de l'algorithme K-modes d'après l'article https://shapeofdata.wordpress.com/2014/03/04/k-modes/ . La fonction principale __kmodes__ est utilisée pour répondre au test technique de Aquila. La distance utilisée correspond au nombre de mismatchs entre deux observations. Ex :
+ * **Observation A** : (*Paris*,Riche,*Foot*)
+ * **Observation B** : (*New York*,Riche,*Basket*)
  * dist(**A**,**B**) : 2
 
 
