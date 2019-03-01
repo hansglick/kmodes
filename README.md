@@ -19,9 +19,9 @@ La fonction prend comme argument un dataframe pandas dont les colonnes sont des 
  * Objet 2 : un dataframe contenant des métriques permettant de caractériser les clusters. Ces métriques correspondent aux odds ratio cluster / global. Par exemple : si un cluster comprend 70% de _Paris_ alors que l'attribut _Paris_ n'est présent que dans 35% de la population alors l'attribut _Paris_ est représenté par la métrique 2 (70/35)
 
 ## Les arguments de la fonction principale k-modes
-* **df** : Dataframe, une ligne égale à un individu, les colonnes doivent uniquement être au format OHE
-* **k** = 2 : Nombre de clusters, ici seulement 2 est possible
-* **threshold** = 1 : Valeur représentant la difference existante entre les modes issus de deux itérations successives. En dessous de cette valeur, on stope les itérations
-* **iterations** = 10 : Nombre d'itérations maximum
-* **verbose** = True : Afficher certaines informations sur les itérations en cours
-* **n_clusterings** = 5 : Afin d'éviter de tomber dans un minimum local, on lance __n_clusterings__ k-modes clusterings et on ne renvoie les résultats que du clustering dont la performance est la meilleure
+* `df` : Dataframe, une ligne égale à un individu, les colonnes doivent uniquement être au format OHE
+* `k = 2` : Nombre de clusters, ici seulement 2 est possible
+* `threshold = 1` : Valeur représentant la difference existante entre les modes issus de deux itérations successives. En dessous de cette valeur, on stope les itérations
+* `iterations = 10` : Nombre d'itérations maximum
+* `verbose = True` : Afficher certaines informations sur les itérations en cours
+* `n_clusterings = 5` : Afin d'éviter de tomber dans un minimum local, on lance __n_clusterings__ k-modes clusterings et on ne renvoie les résultats que du clustering dont la performance est la meilleure
